@@ -110,12 +110,11 @@ h4 {
     text-decoration: none;
     /*Quitar Linea De Las Referencias (a)*/
     font-size: 1.8rem;
-    margin-top: 3rem;
-    padding: 1rem 3rem;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
     display: inline-block;
     text-align: center;
     border: none;
-    margin-bottom: 0rem;
 }
 
 .boton:hover {
@@ -126,8 +125,8 @@ h4 {
     background-color: blue;
 }
 
-.boton-verde {
-    background-color: #71B100;
+.boton-gris {
+    background-color: gray;
 }
 
 
@@ -187,5 +186,24 @@ h4 {
 
 .imagen {
     width: 100%;
-    height: 45%;
+    height: 200px;
+}
+
+.imgfooter {
+    width: 19%;
+}
+
+@media (max-width:480px) {
+    main {
+        width: 100%;
+    }
+    .anuncio {
+        width: 100%;
+        flex: 0 0 calc(100% - 1rem);
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .contenedor-anuncios {
+        width: 100%;
+    }
 }
